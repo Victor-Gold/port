@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang=en dir=ltr>
+
+<head>
+    <meta charset=utf-8 />
+    <meta name=viewport content="width=device-width,initial-scale=1,minimum-scale=1" />
+    <link rel="shortcut icon" type=image/svg href="#" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,700&display=swap');
+    </style>
+    <title>Gold Victor | Web Developer </title>
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body data-spy=scroll data-target=.navbar data-offset=200>
+    <header class=header-section id=home>
+        <nav class="navbar navbar-expand-md px-0 main-nav sticky nav-index" data-sticky-wrap=true
+            data-sticky-class=stuck>
+            <div class="container px-4">
+
+
+                <span class="home-navigation  ml-md-auto"> <a class="nav-link" href="index.html">Home</a> </li>
+                </span>
+
+
+                <!--REMOVED CROWN HEADER IMAGE DUE TO SCALING ISSUES & REPLACED WITH HOME BUTTON-->
+
+                <!-- <a class=navbar-brand href=#home>
+
+                    <img width="10%"
+                        src="https://www.transparentpng.com/thumb/crown/tsWVtC-pure-gold-plated-crown-crown-images-gold-crown-png.png"
+                        alt="pure gold plated crown, crown Images, gold crown png @transparentpng.com">
+
+
+                    <img src="" width = "" alt="" /> Disabled Image Logo & Favicons
+
+                </a> -->
+
+                <!--REMOVED CROWN HEADER IMAGE DUE TO SCALING ISSUES-->
+                <button class="navbar-toggler open-nav" type=button aria-controls=navbarSupportedContent
+                    aria-expanded=false aria-label="Toggle navigation">
+                    <div class=toggle-menu-wrapper>
+                        <div class=toggle-menu>
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
+                    </div>
+                </button>
+                <div class="collapse navbar-collapse" id=navbarSupportedContent>
+                    <ul class="navbar-nav ml-md-auto">
+                        <li class=nav-item> <a class=nav-link href=#about>About</a> </li>
+                        <li class=nav-item> <a class=nav-link href=#services>Services</a> </li>
+                        <li class=nav-item> <a class=nav-link href=#portfolio>Portfolio</a> </li>
+                        <li class=nav-item> <a class=nav-link href=#contact>Contact Me</a> </li>
+                        <li class=nav-item> <a class="nav-link case-studies" href="magic.html">Magic</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container container-2 container-3">
+            <div class=hero-wrapper>
+                <div class=hero-text-wrapper>
+                    <p class=hi> Hi There I'm </p>
+                    <h1><span class="gold">Gold</span> Victor</h1>
+                    <h3>Web Developer</h3>
+
+                    <p class=info>Our focus is on building fast, efficient and mobile friendly sites.
+                        <!-- <span class="purple"> +234 90 6674 2286</span> -->
+                    </p> <a  href="https://api.whatsapp.com/send?phone=2349066742286"> <span>Contact Me</span> </a>
+                </div>
+                <div class="hero-image-wrapper"> <img src="media/latop.png" alt="hero-image" /> </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="about-section container" id="about">
+
+            <!-- Insert My Image Here If there is ever a need for it -->
+            <div class="image-div "data-aos="fade-right"> <img src="media/hero.png" alt="gold victor" loading="lazy" /> </div>
+
+            <!-- My Image Ends Here -->
+
+
+            <div class=about-text-div>
+                <div class="header about-header">
+                    <div class=inner>
+                        <div data-aos=fade-up> <span>Who I am</span> <span class=line></span> </div>
+                        <h3 data-aos=fade-up>About Me</h3>
+                    </div>
+                </div>
+
+                <!--Text Area For Skill Description-->
+                <div class=text>
+
+                    <p data-aos=fade-up>A Medical Student from West Africa, I build on and program the web
+                        to make ends meet. My tools include HTML, CSS and JavaScript (Node & React).
+                        I acquired my skills at the App Academy Open (San Francisco), an award winning bootcamp.
+                        I also run a minor blog which you can check out below.
+                    
+                    </p>
+
+
+
+                </div> <a href="#about" data-aos=fade-up onclick="window.alert('This feature is coming soon')"> <span>Blog</span> </a>
+                <!--Text Area For Skill Description Ends-->
+
+
+            </div>
+        </section>
+
+
+        <!--The service container, Here I describe certain aspects and processes which I use. In the future, I will list prices and other things here and change the size of the containers since  I intentionally made it pretty small-->
+
+
+        <section class="services-section container" id=services>
+            <div class="header services-header">
+                <div class=inner>
+                    <div data-aos=fade-up> <span>What I do</span> <span class=line></span> </div>
+                    <h3 data-aos=fade-up>Services</h3>
+                </div>
+            </div>
+            <div class=services-card-wrapper>
+                <div class="services-card interface" data-aos=fade-up data-aos-delay=200>
+                    <div> <img src=media/react-logo.svg alt="" /> </div>
+                    <h5>Sophisticated Development</h5>
+                    <p> I create high-fidelity and excellent
+                        mobile first web sites, I do this by making use of the concepts of responsive design. </p>
+                </div>
+                <div class="services-card development" data-aos=fade-up data-aos-delay=400>
+                    <div> <img src="media/brackets.svg" alt="" /> </div>
+                    <h5>Programming And Technology</h5>
+                    <p> I use various web technologies to develop attractive websites which converts visitors to
+                        customers. I develop attractive and responsive websites. </p>
+                </div>
+                <div class="services-card marketing" data-aos=fade-up data-aos-delay=600>
+                    <div> <img src="media/digital-marketing.svg" alt="" /> </div>
+                    <h5>Digitalization</h5>
+                    <p> I identify and evaluates new digital technologies and use web analytics tools to measure site
+                        traffic to better optimize scalability and suggest improvements</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Work Flow-->
+        <section class="workflow-section container">
+            <div class="header workflow-header">
+                <div class=inner>
+                    <div data-aos=fade-up> <span>Work Flow</span> <span class=line></span> </div>
+                    <h3 data-aos=fade-up>My Work Process</h3>
+                </div>
+            </div>
+            <div class=cards-wrapper>
+                <div class="card idea" data-aos=zoom-in data-aos-delay=200> <img src=media/work-idea.svg alt="" />
+                    <h6>Discover</h6>
+                    <p>I conduct research to identify identical problems to the one I want to solve.</p>
+                </div>
+                <div class="card plan" data-aos=zoom-in data-aos-delay=400> <img src=media/work-plan.svg alt="" />
+                    <h6>Define</h6>
+                    <p>I brainstorm possible solutions to the identified problem.</p>
+                </div>
+                <div class="card design" data-aos=zoom-in data-aos-delay=800> <img src=media/work-design.svg alt="" />
+                    <h6>Prototyping</h6>
+                    <p>I create high fidelity prototypes for the user to test on screens.</p>
+                </div>
+                <div class="card design" data-aos=zoom-in data-aos-delay=1000> <img src=media/implement.svg alt="" />
+                    <h6>Implement</h6>
+                    <p>After prototyping, I deliver for implementation.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--End WorkFlow-->
+
+        <!--Begin Portfolio Description-->
+        <!-- A bit of issue with directing the CSS url attribute to the description-->
+
+        <section class="portfolio-section container" id=portfolio>
+            <div class="header portfolio-header">
+                <div class=inner>
+                    <div data-aos=fade-up> <span>My Project</span> <span class=line></span> </div>
+                    <h3 data-aos=fade-up>My Portfolio</h3>
+                </div>
+            </div>
+            <div class=flex-container data-aos=fade>
+                <div class="profile-container port-container-1">
+                    <div class=profile-wrapper>
+                        <div class=profile-card>
+                            <h4>Delta</h4>
+                            <p> The Delta is a hosting platform based on fast scalability and build time using
+                                bootstrap 5 technologies. The Website has been one of my first and favorite projects</p>
+                            <a onclick="window.alert('This link is not yet hosted on this server.')" href=#portfolio>Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container port-container-2">
+                    <div class=profile-wrapper>
+                        <div class=profile-card>
+                            <h4>Generia | Shopping</h4>
+                            <p>A shopping cart prototype which allows users buy items conveniently. Users can also
+                                cancel order and sign up for new products.</p>
+
+                            <a onclick="window.alert('This link is not yet hosted on this server.')" href=#portfolio>Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container port-container-3">
+                    <div class=profile-wrapper>
+                        <div class=profile-card>
+                            <h4>Eden Foundation Site</h4>
+                            <p> Eden Foundation is a christain charity organization website </p> <a onclick="window.alert('This link is not yet hosted on this server.')" href=#portfolio>Visit Site</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container port-container-4">
+                    <div class=profile-wrapper>
+                        <div class=profile-card>
+                            <h4>Mr.Brown's Bakery</h4>
+                            <p> A small commercial bakery website. Uses CSS GRID instead of flex</p>
+                             <a onclick="window.alert('This link is not yet hosted on this server.')"
+                                href="">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container port-container-5">
+                    <div class=profile-wrapper>
+                        <div class=profile-card>
+                            <h4>Afigo Website</h4>
+                            <p> Its a pet site. Afigo helps its customers in finding their perfect cute pet.
+                            </p> <a onclick="window.alert('This link is not yet hosted on this server.')" href=#portfolio>Visit Site</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="profile-container port-container-6">
+                    <div class=profile-wrapper>
+                        <div class=profile-card>
+                            <h4>Brain Brew</h4>
+                            <p> Brain Brew is a coffee restaurant aimed at giving free services to their regular
+                                customers.
+                                The website was created to test integration of mongo cloud database. The functionality
+                                was
+                                removed.</p> <a onclick="window.alert('This link is not yet hosted on this server.')" href=#portfolio>Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--End Portfolio Description -->
+
+
+        <section class="contact-section container" id=contact>
+            <div class="header contact-header">
+                <div class=inner>
+                    <div data-aos=fade-up> <span>Contact Me</span> <span class=line></span> </div>
+                    <h3 data-aos=fade-up>Get In Touch</h3>
+                </div>
+            </div>
+            <div class=contact-header-text data-aos=fade-up>
+                <p>You can get in touch with me. Just a button click away.</p>
+            </div>
+            <div class=contact-flex>
+                <div class=left-icons>
+                    <div class=contact-info data-aos=fade-up>
+                        <div class=contact-image-div> <img src=media/contact-address.svg alt="" /> </div>
+                        <p>Uyo, Akwa Ibom</p>
+                    </div>
+                    <div class=contact-info data-aos=fade-up>
+                        <div class=contact-image-div> <img src=media/contact-email.svg alt="" /> </div> <a
+                            href="mailto:goldvictor137@gmail.com">goldvictor137@gmail.com</a>
+                    </div>
+                    <div class=contact-info data-aos=fade-up>
+                        <div class=contact-image-div> <img src=media/contact-phone.svg alt="" /> </div> <a
+                            href=tel:+234-906-674-2286>+234-906-674-2286</a>
+                    </div>
+                </div>
+
+
+                <form class='contact-form' data-aos='fade-up' method='POST' name='contact' action="https://formsubmit.co/goldvictor137@gmail.com"><input type='hidden'
+                        name='form-name' value='contact' />
+                    <p class=hidden style=visibility:hidden;height:0> <label>Don’t fill this out if you're human: <input
+                                name=bot-field /></label> </p> <input type=text placeholder="Full Name" name=name
+                     />
+                    <div> <input type=email placeholder=Email name=email /> <input type=number
+                            placeholder="Phone Number" name=phone-number /> </div> <textarea name=message id=""
+                        cols=30 rows=10 placeholder="Enter your message"></textarea> <button
+                        type=submit>Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer Section -->
+    <footer>
+        <div class=container>
+            <div>
+
+                <!-- <img width="10%"
+                    src="https://www.transparentpng.com/thumb/crown/tsWVtC-pure-gold-plated-crown-crown-images-gold-crown-png.png"
+                    alt="pure gold plated crown, crown Images, gold crown png @transparentpng.com">  -->
+
+            </div>
+
+            <!--Disabled Logo Image due to scaling issues, fix it later-->
+            <div>
+                <p>&copy; Copyright 2022. All Right Reserved.</p>
+            </div>
+
+        </div>
+    </footer>
+    <div class=page-designs>
+        <div class=grills> <img src=media/side-element.svg alt="" class=element-1 /> <img src=media/side-element.svg
+                alt="" class=element-2 /> <img src=media/side-element.svg alt="" class=element-3 /> <img
+                src=media/side-element.svg alt="" class=element-4 /> </div>
+        <div class=page-overlay>
+            <div class="layer layer-1"></div>
+            <div class="layer layer-2"></div>
+            <div class="layer layer-3"></div>
+        </div>
+    </div>
+    <div class="mobile-nav">
+        <div class="container">
+            <nav class="nav-bar">
+                <ul class="nav-list">
+                    <li class="nav-list-item mobile-link"> <a href=#home class=nav-link>Home</a> </li>
+                    <li class="nav-list-item mobile-link"> <a href=#about class=nav-link>About</a> </li>
+                    <li class="nav-list-item mobile-link"> <a href=#services class=nav-link>Services</a> </li>
+                    <li class="nav-list-item mobile-link"> <a href=#portfolio class=nav-link>Portfolio</a> </li>
+                    
+                    <li class="nav-list-item mobile-link case-studies"> <a class="nav-link case-studies"
+                            href=magic.html>Magic</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <noscript>Please enable javascript for full site functionality</noscript>
+    <script src=../cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/easypiechart.min.js></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

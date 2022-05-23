@@ -26,10 +26,7 @@ body[data-aos-duration="50"] [data-aos] {
     color: gold !important;
 }
 
-.purple {
-    color: #007bff;
-    font-weight: bolder;
-}
+
 
 [data-aos][data-aos][data-aos-delay="50"],
 body[data-aos-delay="50"] [data-aos] {
@@ -10721,6 +10718,11 @@ button.bg-dark:hover {
         margin-left: auto !important
     }
 }
+.purple {
+    color: #007bff;
+    font-weight: bolder;
+}
+
 
 @media (min-width:992px) {
     .m-lg-0 {
@@ -12789,14 +12791,14 @@ body {
     border-radius: 3rem;
     display: block;
     width: 100%;
-    border: 1px solid #fcfcfc
+    border: 1px solid #fcfcfc;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     box-shadow: none;
     outline: none;
-    border: .1rem solid #0fb
+    border: .1rem solid #2196f3;
 }
 
 .contact-form textarea {
@@ -13772,7 +13774,7 @@ main {
 
 .case-studies-body .case-card .text-section a {
     display: inline-block;
-    background: #0fb;
+    background: #2196f3;
     box-shadow: 0 1.6rem 1.6rem rgba(51, 51, 51, .25);
     border-radius: 3rem;
     color: #303030;
